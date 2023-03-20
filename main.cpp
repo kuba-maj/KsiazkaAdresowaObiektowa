@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ObiektowaKsiazkaAdresowa.02.h"
+#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
