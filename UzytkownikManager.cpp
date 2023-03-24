@@ -57,7 +57,7 @@ bool UzytkownikManager::czyIstniejeLogin(string login)
 
 void UzytkownikManager::wypiszWszystkichUzytkownikow()
 {
-        for (int i = 0; i < uzytkownicy.size(); i++)
+        for (size_t i = 0; i < uzytkownicy.size(); i++)
     {
         cout << uzytkownicy[i].pobierzId() << endl;
         cout << uzytkownicy[i].pobierzLogin() << endl;
@@ -130,4 +130,10 @@ void UzytkownikManager::zmianaHaslaZalogowanegoUzytkownika()
         }
     }
     plikZUzytkownikami.zapiszWszystkichUzytkownikowDoPliku(uzytkownicy);
+}
+
+void UzytkownikManager::wylogowanieUzytkownika()
+{
+    idZalogowanegoUzytkownika = 0;
+    cout << "Zostales wylogowany" << endl;
 }
