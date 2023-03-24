@@ -21,8 +21,6 @@ public:
     string pobierzLogin();
     string pobierzHaslo();
 
-    //int logowanie();
-    //string wczytajLinie();
 };
 
 #endif

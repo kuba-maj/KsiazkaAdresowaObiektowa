@@ -32,11 +32,9 @@ public:
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
     string wczytajLinie();
+    void zmianaHaslaZalogowanegoUzytkownika();
 
 
-    //Uzytkownik pobierzUzytkownika();
-
-    //plikZUzytkownikami.wczytajUzytkownikowZPliku();
 };
 
 #endif
