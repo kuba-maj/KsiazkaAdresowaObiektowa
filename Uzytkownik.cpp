@@ -1,4 +1,5 @@
 #include "Uzytkownik.h"
+#include "UzytkownikManager.h"
 
 void Uzytkownik::ustawId(int noweId)
 {
@@ -30,3 +31,5 @@ string Uzytkownik::pobierzHaslo()
 {
     return haslo;
 }
+
+
