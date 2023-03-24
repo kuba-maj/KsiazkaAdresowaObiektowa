@@ -2,6 +2,7 @@
 #define UZYTKOWNIK_H
 
 #include <iostream>
+//#include <vector>
 
 using namespace std;
 
@@ -19,6 +20,9 @@ public:
     int pobierzId();
     string pobierzLogin();
     string pobierzHaslo();
+
+    //int logowanie();
+    //string wczytajLinie();
 };
 
 #endif

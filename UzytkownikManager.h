@@ -31,6 +31,11 @@ public:
     int logowanieUzytkownika();
     void wypiszWszystkichUzytkownikow();
     void wczytajUzytkownikowZPliku();
+    string wczytajLinie();
+
+
+    //Uzytkownik pobierzUzytkownika();
+
     //plikZUzytkownikami.wczytajUzytkownikowZPliku();
 };
 
