@@ -10,7 +10,7 @@ int idZalogowanegoUzytkownika = 0;
 char wybor;
 
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
-    //ksiazkaAdresowa.wczytajUzytkownikowZPliku();
+
     while (true)
     {
         if (ksiazkaAdresowa.czyUzytkownikJestZalogowany())

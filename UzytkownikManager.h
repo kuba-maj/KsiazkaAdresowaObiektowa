@@ -30,12 +30,11 @@ public:
 
     UzytkownikManager(string nazwaPlikuZUzytkownikami) : plikZUzytkownikami(nazwaPlikuZUzytkownikami) {
     idZalogowanegoUzytkownika = 0;
-    //uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
     };
     void rejestracjaUzytkownika();
     int logowanieUzytkownika();
     void wypiszWszystkichUzytkownikow();
-    void wczytajUzytkownikowZPliku(); //ODKOMENTOWAÆ T¥ LINIJKÊ I USUN¥Æ Z KONSTRUKTORA WYWO£ANIE VEKTORA U¯YTKOWNICY
+    void wczytajUzytkownikowZPliku();
     void zmianaHaslaZalogowanegoUzytkownika();
     void wylogowanieUzytkownika();
     bool czyUzytkownikJestZalogowany();

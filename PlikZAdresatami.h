@@ -15,7 +15,6 @@ using namespace std;
 class PlikZAdresatami
 {
     const string nazwaPlikuZAdresatami;
-    //vector <Adresat> adresaci;
     int idOstatniegoAdresata;
     int idZalogowanegoUzytkownika;
 
