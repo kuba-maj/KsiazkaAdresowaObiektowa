@@ -12,7 +12,7 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow()
     uzytkownikManager.wypiszWszystkichUzytkownikow();
 }
 
-int KsiazkaAdresowa::logowanieUzytkownika()
+void KsiazkaAdresowa::logowanieUzytkownika()
 {
     uzytkownikManager.logowanieUzytkownika();
     if (uzytkownikManager.czyUzytkownikJestZalogowany())
@@ -53,5 +53,5 @@ void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
 
 bool KsiazkaAdresowa::czyUzytkownikJestZalogowany()
 {
-    uzytkownikManager.czyUzytkownikJestZalogowany();
+    return uzytkownikManager.czyUzytkownikJestZalogowany();
 }

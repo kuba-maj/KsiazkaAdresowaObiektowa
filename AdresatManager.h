@@ -28,11 +28,10 @@ public:
     AdresatManager(string nazwaPlikuZAdresatami,int idZalogowanegoUzytkownika)
         :plikZAdresatami(nazwaPlikuZAdresatami),ID_ZALOGOWANEGO_UZYTKOWNIKA(idZalogowanegoUzytkownika)
     {
-        adresaci = plikZAdresatami.wczytajAdresatowZPliku();
+        adresaci = plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(ID_ZALOGOWANEGO_UZYTKOWNIKA);
     }
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
-    int pobierzIdNowegoAdresata();
 };
 
 #endif
