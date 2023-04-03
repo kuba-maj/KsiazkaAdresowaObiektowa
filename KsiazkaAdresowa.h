@@ -17,15 +17,15 @@ class KsiazkaAdresowa
 
 public:
     KsiazkaAdresowa(string nazwaPlikuZUzytkownikami, string nazwaPlikuZAdresatami)
-     : uzytkownikManager(nazwaPlikuZUzytkownikami), NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+        : uzytkownikManager(nazwaPlikuZUzytkownikami), NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
     {
         adresatManager = NULL;
     };
 
     ~KsiazkaAdresowa()
     {
-      delete adresatManager;
-      adresatManager = NULL;
+        delete adresatManager;
+        adresatManager = NULL;
     };
     bool czyUzytkownikJestZalogowany();
     void rejestracjaUzytkownika();

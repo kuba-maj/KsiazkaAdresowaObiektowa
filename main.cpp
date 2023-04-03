@@ -5,9 +5,7 @@ using namespace std;
 
 int main()
 {
-int idZalogowanegoUzytkownika = 0;
-
-char wybor;
+    char wybor;
 
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
 

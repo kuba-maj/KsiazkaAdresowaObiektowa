@@ -24,7 +24,8 @@ Uzytkownik UzytkownikManager::podajDaneNowegoUzytkownika()
         cout << "Podaj login: ";
         cin >> login;
         uzytkownik.ustawLogin(login);
-    } while (czyIstniejeLogin(uzytkownik.pobierzLogin()) == true);
+    }
+    while (czyIstniejeLogin(uzytkownik.pobierzLogin()) == true);
 
     string haslo;
     cout << "Podaj haslo: ";
@@ -51,13 +52,13 @@ bool UzytkownikManager::czyIstniejeLogin(string login)
             cout << endl << "Istnieje uzytkownik o takim loginie." << endl;
             return true;
         }
-        return false;
     }
+    return false;
 }
 
 void UzytkownikManager::wypiszWszystkichUzytkownikow()
 {
-        for (size_t i = 0; i < uzytkownicy.size(); i++)
+    for (size_t i = 0; i < uzytkownicy.size(); i++)
     {
         cout << uzytkownicy[i].pobierzId() << endl;
         cout << uzytkownicy[i].pobierzLogin() << endl;

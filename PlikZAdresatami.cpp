@@ -127,7 +127,8 @@ int PlikZAdresatami::pobierzIdOstatniegoAdresata()
     return idOstatniegoAdresata;
 }
 
-vector <Adresat> PlikZAdresatami::wczytajAdresatowZPliku() {
+vector <Adresat> PlikZAdresatami::wczytajAdresatowZPliku()
+{
     vector <Adresat> adresaci;
     Adresat adresat;
     string daneJednegoAdresataOddzielonePionowymiKreskami = "";
@@ -136,20 +137,21 @@ vector <Adresat> PlikZAdresatami::wczytajAdresatowZPliku() {
 
     plikTekstowy.open(NAZWA_PLIKU_Z_ADRESATAMI.c_str(), ios::in);
 
-    if (plikTekstowy.good() == true) {
+    if (plikTekstowy.good() == true)
+    {
         while (getline(plikTekstowy, daneJednegoAdresataOddzielonePionowymiKreskami))
-            {
+        {
             adresat = pobierzDaneAdresata(daneJednegoAdresataOddzielonePionowymiKreskami);
             adresaci.push_back(adresat);
-            }
+        }
         daneOstatniegoAdresataWPliku = daneJednegoAdresataOddzielonePionowymiKreskami;
         plikTekstowy.close();
     }
 
-            if (daneOstatniegoAdresataWPliku != "")
-            {
-                idOstatniegoAdresata = pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(daneOstatniegoAdresataWPliku);
-            }
+    if (daneOstatniegoAdresataWPliku != "")
+    {
+        idOstatniegoAdresata = pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(daneOstatniegoAdresataWPliku);
+    }
 
     return adresaci;
 }

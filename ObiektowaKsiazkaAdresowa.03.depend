@@ -92,17 +92,17 @@
 	"PlikZAdresatami.h"
 	"MetodyPomocnicze.h"
 
-1680015217 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresat.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresat.cpp
 	"Adresat.h"
 
-1680454904 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresat.h
+1680455298 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresat.h
 	<iostream>
 
-1680453930 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresatmanager.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresatmanager.cpp
 	"AdresatManager.h"
 	"MetodyPomocnicze.h"
 
-1680452102 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresatmanager.h
+1680521328 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\adresatmanager.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -111,7 +111,7 @@
 	"PlikZAdresatami.h"
 	"MetodyPomocnicze.h"
 
-1680452102 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzadresatami.h
+1680456010 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzadresatami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -119,17 +119,17 @@
 	"Adresat.h"
 	"MetodyPomocnicze.h"
 
-1680016061 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\metodypomocnicze.h
+1680456010 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>
 
-1680444874 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\ksiazkaadresowa.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\ksiazkaadresowa.cpp
 	"UzytkownikManager.h"
 	"KsiazkaAdresowa.h"
 	"AdresatManager.h"
 
-1680444359 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownikmanager.h
+1680456010 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownikmanager.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -142,7 +142,7 @@
 1680020247 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownik.h
 	<iostream>
 
-1680444745 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzuzytkownikami.h
+1680455298 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -150,29 +150,29 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1680451443 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\ksiazkaadresowa.h
+1680456010 c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\ksiazkaadresowa.h
 	<iostream>
 	<windows.h>
 	"UzytkownikManager.h"
 	"AdresatManager.h"
 
-1680020247 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\main.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
 1680016061 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1680454294 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzadresatami.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzadresatami.cpp
 	"PlikZAdresatami.h"
 
-1680444825 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzuzytkownikami.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1679677657 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownik.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownik.cpp
 	"Uzytkownik.h"
 	"UzytkownikManager.h"
 
-1680454294 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownikmanager.cpp
+1680456010 source:c:\users\jakub\desktop\przyszly_programista\obiektowaksiazkaadresowa.03\uzytkownikmanager.cpp
 	"UzytkownikManager.h"
 

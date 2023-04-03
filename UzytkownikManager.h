@@ -28,9 +28,10 @@ class UzytkownikManager
 
 public:
 
-    UzytkownikManager(string nazwaPlikuZUzytkownikami) : plikZUzytkownikami(nazwaPlikuZUzytkownikami) {
-    uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
-    idZalogowanegoUzytkownika = 0;
+    UzytkownikManager(string nazwaPlikuZUzytkownikami) : plikZUzytkownikami(nazwaPlikuZUzytkownikami)
+    {
+        uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
+        idZalogowanegoUzytkownika = 0;
     };
     void rejestracjaUzytkownika();
     int logowanieUzytkownika();
