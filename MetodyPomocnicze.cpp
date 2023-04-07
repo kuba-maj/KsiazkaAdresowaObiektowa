@@ -53,6 +53,8 @@ char MetodyPomocnicze::wybierzOpcjeZMenuGlownego()
     cout << "    >>> MENU  GLOWNE <<<" << endl;
     cout << "---------------------------" << endl;
     cout << "1. Dodaj adresata" << endl;
+    cout << "2. Wyszukaj po imieniu" << endl;
+    cout << "3. Wyszukaj po nazwisku" << endl;
     cout << "4. Wyswietl wszystkich adresatow" << endl;
     cout << "7. Zmiana Hasla Uzytkownika" << endl;
     cout << "8. Wylogowanie uzytkownika" << endl;
