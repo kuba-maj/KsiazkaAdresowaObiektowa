@@ -18,6 +18,8 @@ public:
     static char wczytajZnak();
     static char wybierzOpcjeZMenuGlownego();
     static char wybierzOpcjeZMenuUzytkownika();
+    static int wczytajLiczbeCalkowita();
+    static char wybierzOpcjeZMenuEdycja();
 };
 
 #endif
