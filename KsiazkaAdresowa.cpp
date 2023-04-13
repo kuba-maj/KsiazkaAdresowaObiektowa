@@ -70,3 +70,8 @@ void KsiazkaAdresowa::edytujAdresata()
 {
     adresatManager -> edytujAdresata();
 }
+
+int KsiazkaAdresowa::usunAdresata()
+{
+    return adresatManager -> usunAdresata();
+}
