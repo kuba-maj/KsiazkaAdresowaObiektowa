@@ -8,18 +8,17 @@
 
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
+#include "PlikTekstowy.h"
 class AdresatManager;
 
 using namespace std;
 
-class PlikZAdresatami
+class PlikZAdresatami : public PlikTekstowy
 {
-    const string NAZWA_PLIKU_Z_ADRESATAMI;
     string nazwaTymczasowegoPlikuZAdresatami;
     int idOstatniegoAdresata;
     int idZalogowanegoUzytkownika;
 
-    bool czyPlikJestPusty();
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
@@ -29,13 +28,12 @@ class PlikZAdresatami
 
 public:
 
-    PlikZAdresatami(string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+    PlikZAdresatami(string nazwaPliku) : PlikTekstowy(nazwaPliku)
     {
         idOstatniegoAdresata = 0;
     };
     bool dopiszAdresataDoPliku(Adresat adresat);
     vector <Adresat> wczytajAdresatowZalogowanegoUzytkownikaZPliku(int idZalogowanegoUzytkownika);
-    vector <Adresat> wczytajAdresatowZPliku();
     int pobierzIdOstatniegoAdresata();
     void edytujWybranegoAdresataWPliku(Adresat adresat, string liniaZDanymiAdresata);
     void usunWybranegoAdresataZPliku(int idUsuwanegoAdresata);
