@@ -9,7 +9,6 @@
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
 #include "PlikTekstowy.h"
-class AdresatManager;
 
 using namespace std;
 
@@ -17,7 +16,7 @@ class PlikZAdresatami : public PlikTekstowy
 {
     string nazwaTymczasowegoPlikuZAdresatami;
     int idOstatniegoAdresata;
-    int idZalogowanegoUzytkownika;
+    //int idZalogowanegoUzytkownika;
 
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
