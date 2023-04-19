@@ -74,30 +74,6 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>497</x>
-      <y>532</y>
-      <w>266</w>
-      <h>154</h>
-    </coordinates>
-    <panel_attributes>MetodyPomocnicze
---
---
-+ konwerjsaIntNaString() : string
-+ zamienPierwszaLitereNaDuzaAPozostaleNaMale : string
-+ wczytajLinie() : string
-+ konwersjaStringNaInt() : integer
-+ pobierzLiczbe() : string
-+ wczytajZnak() : char
-+ wybierzOpcjeZMenuGlownego() : char
-+ wybierzOpcjeZMenuUzytkownika() : char
-+ wczytajLiczbeCalkowita() : integer
-+ wybierzOpcjeZMenuEdycja() : char
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>1253</x>
       <y>427</y>
       <w>147</w>
@@ -389,5 +365,32 @@ bg=black</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>525</y>
+      <w>266</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>MetodyPomocnicze
+--
+--
++ konwerjsaIntNaString() : string
++ zamienPierwszaLitereNaDuzaAPozostaleNaMale : string
++ wczytajLinie() : string
++ konwersjaStringNaInt() : integer
++ pobierzLiczbe() : string
++ wczytajZnak() : char
++ wybierzOpcjeZMenuGlownego() : char
++ wybierzOpcjeZMenuUzytkownika() : char
++ wczytajLiczbeCalkowita() : integer
++ wybierzOpcjeZMenuEdycja() : char
+
+
+
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
