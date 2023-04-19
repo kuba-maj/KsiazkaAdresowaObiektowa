@@ -9,7 +9,7 @@
       <w>144</w>
       <h>81</h>
     </coordinates>
-    <panel_attributes>Uzytkownik
+    <panel_attributes>User
 --
 - id : integer
 - login : string
